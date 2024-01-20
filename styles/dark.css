@@ -1,0 +1,29 @@
+body {
+    background-color: #0c1726;
+}
+
+.calculator {
+    background-color: rgb(68 71 80);
+    border-radius: 0.4em;
+    padding: 1.5em;
+    border: 10px outset rgb(0 0 0);
+}
+
+.screen {
+    background-color: rgb(53 59 51);
+    border: 1px solid black;
+    color: #c8c8c2;
+}
+
+button {
+    background-color: #292929;
+    color: #f5913b;
+}
+
+button:last-of-type {
+    background-color: #213559;
+}
+
+#theme_button {
+    filter: invert(0.8)
+}

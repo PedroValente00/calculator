@@ -1,0 +1,30 @@
+.calculator {
+    background: linear-gradient(125deg, #e1d4b9, #d1bd98);
+    box-shadow: 4px 4px 2px #B9B4C7;
+    border-radius: 0.4em;
+    padding: 1.5em;
+    border: 10px;
+    border-color: #9c9588;
+    border-style: outset;
+}
+
+.inner-color {
+    background-color: #6a6565;
+}
+
+.screen {
+    background-color: rgb(28, 38, 29);
+    color: rgb(100, 170, 150);
+}
+
+button {
+    background-color: #bababa;
+}
+
+button:last-of-type {
+    background-color: #f5913b;
+}
+
+.number{
+    background-color: #e4e1dc;
+}
