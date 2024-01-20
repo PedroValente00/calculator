@@ -24,7 +24,6 @@ buttons.forEach(button => {
     button.addEventListener("click", () => {
         try {
             const registerInput = () => {
-                console.log(calcs.textContent.length);
                 if (calcs.textContent.length < 30) {
                     arr.push(button.textContent)
                 } else {
