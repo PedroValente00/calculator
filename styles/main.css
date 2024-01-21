@@ -109,3 +109,15 @@ button:disabled{
     100% { transform: translate(3px); color:rgb(100, 170, 150)}
 }
 
+@media (max-width: 450px) {
+    body, button {
+        font-size: 1rem;
+    }  
+.calculator{
+    padding: 1em;
+    border: 5px;
+}
+.inner-color {
+    padding: 0.5em;
+}
+}
